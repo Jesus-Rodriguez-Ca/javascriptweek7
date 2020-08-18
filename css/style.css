@@ -43,7 +43,7 @@ form-style input[type="number"]:focus
 }
 
 
-.form-style input[type="button"],
+.form-style input[type="submit"],
 .calc, button, .result{
 	
 	width: 100%;
@@ -60,3 +60,4 @@ form-style input[type="number"]:focus
 .form-style input[type="button"]:hover{
 	background: #2f2f2f;
 }
+

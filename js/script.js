@@ -1,12 +1,31 @@
 window.onload = function(){
 
+    // Blocks typing info to the result box
+    document.getElementById("result").disabled = true;
 
-function calculate(){
-    var miles = parseInt( document.getElementById("miles").value);
-    var gallons = parseInt( document.getElementById("gallons").value);
-    var result = document.getElementById("result").value = miles / gallons;
+    // Funtion to calculate miles per gallon used
+    function calculate(){
+
+     // Miles entered are saved in variable miles 
+    var miles = parseFloat( document.getElementById("miles").value);
+
+    // Gallons entered are saved in variable gallons
+    var gallons = parseFloat( document.getElementById("gallons").value);
+
+
+    // Saves a reference of id = result into a variable called result
+    var result = document.getElementById("result")
+
+    // Calculates how many miles per gallon are used. Fixed to just one decimal space.
+    result.value = (miles / gallons).toFixed(1);
+    
+   
   
 }
+// Saves a reference of id= calc into a variable called calc
 var calc = document.getElementById("calc");
-calc.onclick = calculate
+
+// Binds a click event to calc and fire the calculate funtion. 
+calc.addEventListener("click", calculate, false);
+
 }

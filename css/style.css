@@ -18,18 +18,13 @@ html{
 	color: #fff;
 	margin: -16px -16px 16px -16px;
 }
-.form-style input[type="number"],
+.form-style input[type="text"]
 
-.form-style select 
 {
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
+	
 	outline: none;
 	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	
 	width: 100%;
 	background: #fff;
 	margin-bottom: 4%;
@@ -38,7 +33,7 @@ html{
 	color: #555;
 	font: 95% Arial, Helvetica, sans-serif;
 }
-.form-style input[type="number"]:focus
+form-style input[type="number"]:focus
 
 
 {
@@ -47,11 +42,10 @@ html{
 	border: 1px solid gold;
 }
 
-.form-style input[type="submit"],
-.form-style input[type="button"]{
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+
+.form-style input[type="button"],
+.calc, button, .result{
+	
 	width: 100%;
 	padding: 3%;
 	background: #2f2f2f;

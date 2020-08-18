@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,26 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
+        <div class="form-style">
     <h1>How many miles per gallon does your car use?</h1>
 
+    <form action="google.com">
+        <label for="username">Enter miles driven:</label><br>
+        <input type="integer" id="miles"/><br>
+
+        <label for="username">Enter gallons of gas used:</label><br>
+        <input type="integer" id="gallons"/><br>
+
+        <label for="username">Miles Per Gallon</label><br>
+        <input type="integer" id="total"/><br><br>
+
+        <input type="submit" value="Calculate MPG"/><br>
+
         
-        <script src="" async defer></script>
+    </form>
+</div>
+        <script src="js/script.js" ></script>
+       
     </body>
 </html>
